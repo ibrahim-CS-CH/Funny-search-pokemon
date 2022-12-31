@@ -67,7 +67,7 @@ function PokemonDetails () {
             <Link to="/">
                 <h1 className="text-2xl font-bold mb-5">&lt; Home</h1>
             </Link>
-            <div className="grid grid-cols-2">
+            <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 ">
                 <img
                 className="w-96 h-96 flex-shrink-0 mx-auto bg-black rounded-xl"
                 src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${pokemonData.id}.png`}
