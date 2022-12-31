@@ -21,6 +21,7 @@ It's Funny Use Library To Finish My Work and Managment My Source
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 - download Project
-- run these command
-  yarn
-  yarn dev
+
+## run these command
+- yarn
+- yarn dev
