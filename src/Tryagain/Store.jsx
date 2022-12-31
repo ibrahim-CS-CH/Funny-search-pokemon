@@ -1,7 +1,7 @@
 import {createContext, useContext,useReducer,useCallback, useMemo} from 'react'
 import { useQuery } from '@tanstack/react-query'
 function usePokemonSource() {
-    const {data: pokemon} = useQuery(["pokemon"], () =>fetch("../src/data/pokenam.json").then((res)=>res.json()),{
+    const {data: pokemon} = useQuery(["pokemon"], () =>fetch('/pokenam.json').then((res)=>res.json()),{
         initialData: [],
     })
     const[{ search}, dispatch]=useReducer((state, action)=>{
