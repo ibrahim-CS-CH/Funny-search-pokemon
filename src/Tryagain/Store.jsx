@@ -19,7 +19,7 @@ function usePokemonSource() {
         })
     },[])
     const filterPokemon = useMemo(() => 
-        pokemon.filter((e)=>e.name.toLowerCase().includes(search)).slice(0,21)
+        pokemon.filter((e)=>e.name.toLowerCase().includes(search))
     ,[pokemon, search])
 
     const sortedPokemon = useMemo(()=>
